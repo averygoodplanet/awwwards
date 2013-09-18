@@ -1,4 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+content {
+  width: 960px;
+  display: block;
+  border: 1px solid red;
+  background-color: red; }
+  content section {
+    width: 960px;
+    height: 232.32px;
+    display: block; }
+    content section img {
+      width: 373.44px;
+      height: 232.32px; }
+
+/* setting $wrapper_width variable to 960px
+(peter) using this to express some content measurement
+as percentage of $wrapper_width. */
 html {
   background-color: #e4e6e5; }
 
