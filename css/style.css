@@ -1,64 +1,29 @@
-/*
-Syntax error: Undefined variable: "$background_color".
-        on line 3 of scss/style.scss
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+header nav#top_nav ul {
+  list-style-type: none;
+  padding: 0px; }
+  header nav#top_nav ul li {
+    display: inline-block; }
+    header nav#top_nav ul li a {
+      text-decoration: none;
+      color: #409f89; }
 
-1: html
-2: {
-3:   background-color: $background_color;
-4: }
-5: 
-6: body
-7: {
-8:   font-family: $normal_font;
+header div#login_register p {
+  font-size: 12px;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #333;
+  color: #FFF; }
+  header div#login_register p span {
+    font-weight: thin; }
 
-Backtrace:
-scss/style.scss:3
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/script/variable.rb:49:in `_perform'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/script/node.rb:40:in `perform'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:235:in `watch'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin.rb:107:in `method_missing'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/exec.rb:455:in `watch_or_update'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/exec.rb:318:in `process_result'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/exec.rb:41:in `parse'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/exec.rb:21:in `parse!'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/bin/sass:9:in `<top (required)>'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/bin/sass:23:in `load'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/bin/sass:23:in `<main>'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `eval'
-/home/warren/.rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$background_color\".\A         on line 3 of scss/style.scss\A \A 1: html\A 2: {\A 3:   background-color: $background_color;\A 4: }\A 5: \A 6: body\A 7: {\A 8:   font-family: $normal_font;"; }
+html {
+  background-color: #e4e6e5; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto; }

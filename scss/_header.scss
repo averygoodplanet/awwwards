@@ -1,0 +1,42 @@
+header
+{
+	nav#top_nav
+	{
+		ul
+		{
+			list-style-type:none;
+			padding:0px;
+
+			li
+			{
+				display:inline-block;
+
+				a
+				{
+					text-decoration:none;
+					color:$green;
+				}
+			}
+		}
+	}
+}
+
+header
+{
+	div#login_register{
+		p
+		{
+			font-size:12px;
+			width:120px;
+			height:30px;
+			font-weight:bold;
+			background-color:#333;
+			color:#FFF;
+
+			span
+			{
+				font-weight:thin;
+			}
+		}
+	}
+}
