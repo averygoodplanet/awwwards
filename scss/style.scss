@@ -1,3 +1,10 @@
+@import 'colors';
+@import 'fonts';
+@import 'header';
+@import 'content';
+@import 'footer';
+
+
 html
 {
   background-color: $background_color;
