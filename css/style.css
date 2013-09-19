@@ -22,6 +22,8 @@ content {
       height: 232.32px;
       float: left; }
     content section #ratings {
+      padding-left: 13.44px;
+      list-style-type: none;
       width: 56.64px;
       height: 232.32px;
       float: left; }

@@ -34,8 +34,10 @@ content
       float: left;
     }
 
-    #ratings
+    #ratings //the ul containing numbers in big circles
     {
+      padding-left: ($wrapper_width * .014);
+      list-style-type: none;
       width: $wrapper_width *.059;
       height: $wrapper_width * .242;
       float:left;
