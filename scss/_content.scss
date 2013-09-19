@@ -106,6 +106,20 @@ content
       {
         border-bottom: 1px solid $bottom_border_gray;
         padding: 5px 0;
+
+        ul
+        {
+          list-style: none;
+          padding: 0px;
+          margin: 0px;
+
+          li
+          {
+            display: inline;
+            padding: 0px;
+            margin: 0px;
+          }
+        }
       }
     }
   }
