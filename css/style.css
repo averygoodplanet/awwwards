@@ -76,6 +76,7 @@ header div#nav_section_three {
   header div#nav_section_three ul {
     list-style-type: none;
     padding: 0px;
+    padding-top: 20px;
     float: left; }
   header div#nav_section_three li {
     display: inline-block;
@@ -147,6 +148,9 @@ header div#nav_section_four ul#icon_set {
 header ul {
   position: relative;
   top: -17px; }
+
+#submit {
+  color: #409f89; }
 
 content {
   width: 960px;

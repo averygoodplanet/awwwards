@@ -156,6 +156,7 @@ header
 		{
 			list-style-type:none;
 			padding:0px;
+			padding-top:20px;
 			float:left;
 		}
 
@@ -285,4 +286,9 @@ header
 		position:relative;
 		top:-17px;
 	}
+}
+
+#submit
+{
+	color:rgb(64, 159, 137);
 }
