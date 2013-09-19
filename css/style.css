@@ -69,36 +69,95 @@ header div#nav_section_three a {
 content {
   width: 960px;
   display: block;
-  border: 1px solid red;
-  background-color: red;
   margin-top: 32.544px; }
+  content a {
+    font-size: 13px;
+    color: #54AAAE;
+    font-style: italic;
+    text-decoration: none; }
   content section {
     width: 960px;
     height: 232.32px;
     display: block;
     position: relative;
     /*positioning section relative (but not moving) so that img#ribbon
-    can be positioned absolutely */ }
+    can be positioned absolutely */
+    font-size: 13px; }
     content section img#ribbon {
       width: 60.48px;
-      height: 232.32px;
+      height: 123.3216px;
       position: absolute;
-      left: -9.6px; }
+      left: -9.6px;
+      top: 66px; }
     content section img {
       width: 373.44px;
       height: 232.32px;
       float: left; }
     content section #ratings {
-      padding-left: 13.44px;
+      padding: 0 13.44px;
       list-style-type: none;
       width: 56.64px;
       height: 232.32px;
-      float: left; }
+      float: left;
+      margin-top: 0px; }
+      content section #ratings li {
+        height: 48.48px;
+        width: 48.48px;
+        border-radius: 60px;
+        line-height: 47px;
+        text-align: center; }
+      content section #ratings li:nth-child(1) {
+        border: 5px solid #df6c4f; }
+      content section #ratings li:nth-child(2) {
+        border: 5px solid #ecd06f; }
+      content section #ratings li:nth-child(3) {
+        border: 5px solid #409f89; }
+      content section #ratings li:nth-child(4) {
+        border: 5px solid #1c879c; }
     content section table {
       width: 497.28px;
       height: 224.64px;
       float: left;
       margin-bottom: 67.2px; }
+      content section table th {
+        text-align: left;
+        text-transform: uppercase;
+        padding-bottom: 7.99968px;
+        font-weight: lighter; }
+      content section table td {
+        border-bottom: 1px solid #cbcecc;
+        padding: 5px 0; }
+        content section table td ul {
+          list-style: none;
+          padding: 0px;
+          margin: 0px; }
+          content section table td ul li {
+            display: inline;
+            padding: 0px;
+            margin: 0px;
+            border-radius: 55px;
+            line-height: -1px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-align: center;
+            color: white;
+            padding-left: 4px; }
+            content section table td ul li#number1 {
+              background-color: #df6c4f; }
+            content section table td ul li#number2 {
+              background-color: #ecd06f; }
+            content section table td ul li#number3 {
+              background-color: #409f89; }
+            content section table td ul li#number4 {
+              background-color: #1c879c; }
+  content #captions #football {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 277.30003px; }
+    content #captions #football a {
+      font-weight: normal; }
 
 footer {
   padding-top: 40px; }
