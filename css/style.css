@@ -143,7 +143,10 @@ header div#nav_section_four ul#icon_set {
   header div#nav_section_four ul#icon_set a {
     text-decoration: none;
     color: #000;
-    font-size: 15px; }
+    font-size: 15px;
+    transition: all .15s ease-in-out; }
+    header div#nav_section_four ul#icon_set a:hover {
+      color: #AAA; }
 
 header ul {
   position: relative;
