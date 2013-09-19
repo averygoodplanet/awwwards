@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+#color_bar {
+  border-top: 4px solid #222; }
+
 header {
   width: 960px; }
   header nav#top_nav {
@@ -30,25 +33,23 @@ header {
           header nav#top_nav ul li a:hover {
             color: #AAA; }
 
-header {
-  border-top: 3px solid #222; }
-  header div#login_register {
-    float: right;
-    width: 120px;
-    border: 1px solid black;
-    position: absolute;
-    top: 0px;
-    left: 970px;
-    background-color: #333; }
-    header div#login_register p {
-      font-size: 12px;
-      font-weight: bold;
-      color: #FFF;
-      text-align: center;
-      vertical-align: text-top;
-      height: 100%; }
-      header div#login_register p span {
-        font-weight: lighter; }
+header div#login_register {
+  float: right;
+  width: 120px;
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  left: 970px;
+  background-color: #333; }
+  header div#login_register p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    vertical-align: text-top;
+    height: 100%; }
+    header div#login_register p span {
+      font-weight: lighter; }
 
 header div#tagline h2 {
   font-size: 12px;
