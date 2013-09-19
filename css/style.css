@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
-<<<<<<< HEAD
 header {
   width: 960px;
   border: 1px solid black; }
@@ -13,10 +12,10 @@ header {
       padding: 0px; }
       header nav#top_nav ul li {
         display: inline-block;
-        padding-left: 10px;
         border-right: 1px solid black;
         width: 60px;
-        margin-left: 30px; }
+        text-align: center;
+        vertical-align: center; }
         header nav#top_nav ul li a {
           font-weight: thin;
           text-decoration: none;
@@ -30,7 +29,8 @@ header div#login_register {
     height: 30px;
     font-weight: bold;
     background-color: #333;
-    color: #FFF; }
+    color: #FFF;
+    text-align: center; }
     header div#login_register p span {
       font-weight: lighter; }
 
@@ -57,8 +57,15 @@ header div#nav_section_two div#tagline {
 header div#nav_section_three ul {
   list-style-type: none;
   padding: 0px; }
+header div#nav_section_three li {
+  display: inline-block;
+  padding: 10px; }
+header div#nav_section_three a {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #222; }
 
-=======
 content {
   width: 960px;
   display: block;
@@ -114,7 +121,6 @@ footer {
 /* setting $wrapper_width variable to 960px
 (peter) using this to express some content measurement
 as percentage of $wrapper_width. */
->>>>>>> af2f8dc376c98c18231e812b6d1fb32a65ab9611
 html {
   background-color: #e4e6e5; }
 
@@ -124,6 +130,9 @@ body {
 #wrapper {
   width: 960px;
   margin: 0 auto; }
+
+.clear {
+  clear: both; }
 
 .clear {
   clear: both; }
