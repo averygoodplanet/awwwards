@@ -4,6 +4,10 @@
 @import 'content';
 @import 'footer';
 
+$wrapper_width: 960px;
+/* setting $wrapper_width variable to 960px
+(peter) using this to express some content measurement
+as percentage of $wrapper_width. */
 
 html
 {
@@ -17,11 +21,16 @@ body
 
 #wrapper
 {
-  width: 960px;
+  width: $wrapper_width;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .clear
 {
 	clear:both;
+=======
+.clear {
+  clear: both;
+>>>>>>> af2f8dc376c98c18231e812b6d1fb32a65ab9611
 }

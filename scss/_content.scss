@@ -1,0 +1,54 @@
+$wrapper_width: 960px;
+// this is also assigned on style.scss page--is there a way to
+// reference the $wrapper_width value assignment on style.scss here?
+
+content
+{
+  width: $wrapper_width;
+  display: block;
+  border: 1px solid red;
+  background-color: red;
+  margin-top: $wrapper_width * .0339;
+
+  section
+  {
+    width: $wrapper_width;
+    height: $wrapper_width * .242;
+    display: block;
+    position: relative;
+    /*positioning section relative (but not moving) so that img#ribbon
+    can be positioned absolutely */
+
+    img#ribbon
+    {
+      width: $wrapper_width * .063;
+      height: $wrapper_width * .242;
+      position: absolute;
+      left: -($wrapper_width * .010);
+    }
+
+    img
+    {
+      width: $wrapper_width * .389;
+      height: $wrapper_width * .242;
+      float: left;
+    }
+
+    #ratings //the ul containing numbers in big circles
+    {
+      padding-left: ($wrapper_width * .014);
+      list-style-type: none;
+      width: $wrapper_width *.059;
+      height: $wrapper_width * .242;
+      float:left;
+    }
+
+    table
+    {
+      width: $wrapper_width * .518;
+      height: $wrapper_width * .234;
+      float: left;
+      margin-bottom: $wrapper_width * .07;
+    }
+  }
+}
