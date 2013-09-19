@@ -18,7 +18,8 @@ header {
         vertical-align: text-top;
         margin-left: 10px; }
         header nav#top_nav ul li:last-child {
-          margin-left: 0px; }
+          margin-left: 0px;
+          border-right: 0px; }
         header nav#top_nav ul li a {
           font-weight: thin;
           font-size: 12px;
