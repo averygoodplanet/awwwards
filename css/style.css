@@ -146,11 +146,11 @@ header div#nav_section_four ul#icon_set {
     margin-left: -10px; }
   header div#nav_section_four ul#icon_set a {
     text-decoration: none;
-    color: #000;
+    color: #AAA;
     font-size: 15px;
     transition: all .15s ease-in-out; }
     header div#nav_section_four ul#icon_set a:hover {
-      color: #AAA; }
+      color: #000; }
 
 header ul {
   position: relative;
