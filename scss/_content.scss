@@ -32,9 +32,10 @@ content
     img#ribbon
     {
       width: $wrapper_width * .063;
-      height: $wrapper_width * .242;
+      height: $wrapper_width * .12846;
       position: absolute;
       left: -($wrapper_width * .010);
+      top: $wrapper_width * .06875;
     }
 
     img

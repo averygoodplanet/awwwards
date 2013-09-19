@@ -18,9 +18,10 @@ content {
       text-decoration: none; }
     content section img#ribbon {
       width: 60.48px;
-      height: 232.32px;
+      height: 123.3216px;
       position: absolute;
-      left: -9.6px; }
+      left: -9.6px;
+      top: 66px; }
     content section img {
       width: 373.44px;
       height: 232.32px;
