@@ -1,4 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+footer {
+  padding-top: 40px; }
+  footer ul {
+    padding: 0; }
+    footer ul :nth-child(4) {
+      padding-right: 0px;
+      padding-left: 1px;
+      margin-right: 0px; }
+    footer ul li {
+      display: inline-block;
+      padding-right: 26px; }
+      footer ul li p:first-of-type {
+        font-size: 13px;
+        font-weight: bold;
+        color: #444444; }
+      footer ul li p:nth-of-type(2) {
+        font-size: 13px;
+        color: #54AAAE; }
+
 html {
   background-color: #e4e6e5; }
 
@@ -6,5 +25,5 @@ body {
   font-family: "Raleway", sans-serif; }
 
 #wrapper {
-  width: 960px;
+  width: 964px;
   margin: 0 auto; }
