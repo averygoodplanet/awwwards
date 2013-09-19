@@ -3,6 +3,11 @@ content {
   width: 960px;
   display: block;
   margin-top: 32.544px; }
+  content a {
+    font-size: 13px;
+    color: #54AAAE;
+    font-style: italic;
+    text-decoration: none; }
   content section {
     width: 960px;
     height: 232.32px;
@@ -11,11 +16,6 @@ content {
     /*positioning section relative (but not moving) so that img#ribbon
     can be positioned absolutely */
     font-size: 13px; }
-    content section a {
-      font-size: 13px;
-      color: #54AAAE;
-      font-style: italic;
-      text-decoration: none; }
     content section img#ribbon {
       width: 60.48px;
       height: 123.3216px;
@@ -84,6 +84,13 @@ content {
               background-color: #409f89; }
             content section table td ul li#number4 {
               background-color: #1c879c; }
+  content #captions #football {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 277.30003px; }
+    content #captions #football a {
+      font-weight: normal; }
 
 footer {
   padding-top: 40px; }

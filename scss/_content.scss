@@ -11,6 +11,14 @@ content
   margin-top: $wrapper_width * .0339;
   // background-color: green;
 
+  a
+  {
+    font-size: 13px;
+    color: #54AAAE;
+    font-style: italic;
+    text-decoration: none;
+  }
+
   section
   {
     width: $wrapper_width;
@@ -20,14 +28,6 @@ content
     /*positioning section relative (but not moving) so that img#ribbon
     can be positioned absolutely */
     font-size: 13px;
-
-    a
-    {
-      font-size: 13px;
-      color: #54AAAE;
-      font-style: italic;
-      text-decoration: none;
-    }
 
     img#ribbon
     {
@@ -152,4 +152,22 @@ content
       }
     }
   }
+
+  #captions
+  {
+    #football
+    {
+      font-size: 12px;
+      font-weight: bold;
+      position: absolute;
+      top: $wrapper_width * .2888542;
+
+      a
+      {
+        font-weight: normal;
+      }
+    }
+
+  }
+
 }
