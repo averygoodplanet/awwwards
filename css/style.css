@@ -92,7 +92,10 @@ content {
     content #captions #football a {
       font-weight: normal; }
   content #captions ul {
-    list-style: none; }
+    list-style: none;
+    position: absolute;
+    right: 450px;
+    top: 202px; }
     content #captions ul li {
       display: inline;
       font-size: 10px;
@@ -112,7 +115,7 @@ content {
       font-family: Web; }
 
 footer {
-  padding-top: 40px; }
+  padding-top: 12px; }
   footer ul {
     padding: 0; }
     footer ul :nth-child(4) {
