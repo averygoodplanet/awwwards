@@ -168,6 +168,50 @@ content
       }
     }
 
+    ul
+    {
+      list-style: none;
+      position: absolute;
+      right: 450px;
+      top: 202px;
+
+
+      li
+      {
+        display: inline;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: gray;
+      }
+
+      li#dot1:before
+      {
+        color: $red;
+      }
+
+      li#dot2:before
+      {
+        color: $yellow;
+      }
+
+      li#dot3:before
+      {
+        color: $green;
+      }
+
+      li#dot4:before
+      {
+        color: $aquamarine;
+      }
+
+      li:before
+      {
+        content: ".";
+        font-size: 74px;
+        font-family: Web;
+      }
+    }
+
   }
 
 }

@@ -233,9 +233,31 @@ content {
     top: 277.30003px; }
     content #captions #football a {
       font-weight: normal; }
+  content #captions ul {
+    list-style: none;
+    position: absolute;
+    right: 450px;
+    top: 202px; }
+    content #captions ul li {
+      display: inline;
+      font-size: 10px;
+      text-transform: uppercase;
+      color: gray; }
+    content #captions ul li#dot1:before {
+      color: #df6c4f; }
+    content #captions ul li#dot2:before {
+      color: #ecd06f; }
+    content #captions ul li#dot3:before {
+      color: #409f89; }
+    content #captions ul li#dot4:before {
+      color: #1c879c; }
+    content #captions ul li:before {
+      content: ".";
+      font-size: 74px;
+      font-family: Web; }
 
 footer {
-  padding-top: 40px; }
+  padding-top: 12px; }
   footer ul {
     padding: 0; }
     footer ul :nth-child(4) {
