@@ -67,7 +67,23 @@ content {
           content section table td ul li {
             display: inline;
             padding: 0px;
-            margin: 0px; }
+            margin: 0px;
+            border-radius: 55px;
+            line-height: -1px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-align: center;
+            color: white;
+            padding-left: 4px; }
+            content section table td ul li#number1 {
+              background-color: #df6c4f; }
+            content section table td ul li#number2 {
+              background-color: #ecd06f; }
+            content section table td ul li#number3 {
+              background-color: #409f89; }
+            content section table td ul li#number4 {
+              background-color: #1c879c; }
 
 footer {
   padding-top: 40px; }

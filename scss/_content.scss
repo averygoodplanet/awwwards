@@ -118,7 +118,36 @@ content
             display: inline;
             padding: 0px;
             margin: 0px;
+            border-radius: 55px;
+            line-height: -1px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-align: center;
+            color: white;
+            padding-left: 4px;
+
+            &#number1
+            {
+              background-color: $red;
+            }
+
+            &#number2
+            {
+              background-color: $yellow;
+            }
+
+            &#number3
+            {
+              background-color: $green;
+            }
+
+            &#number4
+            {
+              background-color: $aquamarine;
+            }
           }
+
         }
       }
     }
