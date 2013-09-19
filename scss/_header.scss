@@ -1,7 +1,7 @@
 header
 {
 	width:960px;
-	border:1px solid black;
+	// border:1px solid black;
 
 	nav#top_nav
 	{
@@ -9,6 +9,7 @@ header
 		font-size:15px;
 		float:right;
 		// border:1px solid black;
+		margin-right:-40px;
 
 		ul
 		{	
@@ -20,20 +21,35 @@ header
 			li
 			{
 				display:inline-block;
-				// padding-left:10px;
+				padding-right:10px;
 				border-right:1px solid black;
-				width:60px;
 				text-align:center;
-				vertical-align:center;
-				// margin-left:30px;
+				vertical-align:text-top;
+				margin-left:10px;
+
+				&:last-child
+				{
+					margin-left:0px;
+				}
+
+				
 
 				a
 				{
 					font-weight:thin;
+					font-size:12px;
 					text-decoration:none;
 					color:#222;
+					transition:all .15s ease-in-out;
 
+					&:hover
+				{
+					color:#AAA;
 				}
+
+			}
+
+				
 			}
 		}
 	}
@@ -44,16 +60,19 @@ header
 	div#login_register{
 
 		float:right;
+		width:120px;
+		height:30px;
+		padding-top:5px;
 
 		p
 		{
+
 			font-size:12px;
-			width:120px;
-			height:30px;
 			font-weight:bold;
 			background-color:#333;
 			color:#FFF;
 			text-align:center;
+			vertical-align:text-top;
 
 			span
 			{
@@ -94,7 +113,8 @@ header
 		{
 			width:288px;
 			height:56px;
-			background-color:$red;
+			background-image:url('http://static.awwwards.com/bundles/tvawwwards/images/logo.png');
+			background-repeat:none;
 			float:left;
 			margin-right:10px;
 		}
@@ -120,23 +140,139 @@ header
 {
 	div#nav_section_three
 	{
+		height:40px;
+
 		ul
 		{
 			list-style-type:none;
 			padding:0px;
+			float:left;
 		}
 
 		li
 		{
 			display:inline-block;
 			padding:10px;
+
+			&:last-child
+			{
+				color:rgb(000,100,000);
+			}
 		}
+
 		a
 		{
 			font-size:15px;
 			text-decoration:none;
 			font-weight:bold;
 			color:#222;
+
 		}
+	}
+}
+
+header
+{
+	div#nav_section_three
+	{
+		form input
+		{
+			background-color:$background-color;
+			float:right;
+			margin-top:25px;
+			border:1px solid #AAA;
+			padding-left:10px;
+			color:#AAA;
+		}
+	}
+}
+
+header
+{
+	div#nav_section_four
+	{
+		border-top:1px solid #AAA;
+		border-bottom:1px solid #AAA;
+		height:40px;
+		width:100%;
+
+		ul#sub_nav
+		{
+			display:inline-block;
+			list-style-type:none;
+			vertical-align:text-top;
+			float:right;
+
+			li
+			{
+				display:inline-block;
+				width:140px;
+				height:25px;
+				text-align:center;
+				font-size:12px;
+				vertical-align:text-top;
+				border-right:1px solid #555;
+				padding:15px 0px 0px 0px;
+				margin-left:-10px;
+
+				&:last-child
+				{
+					border-right:0px;
+				}
+
+				&:hover
+				{
+					border-bottom:1px solid #AAA;
+				}
+
+				a
+				{
+					text-decoration:none;
+					color:#000;
+				}
+			}
+		}
+	}
+}
+
+header
+{
+	div#nav_section_four
+	{
+		ul#icon_set	
+		{	
+			display:inline-block;
+			list-style-type:none;
+			vertical-align:text-top;
+			float:right;
+
+			li
+			{
+					display:inline-block;
+				width:50px;
+				height:25px;
+				text-align:center;
+				font-size:12px;
+				vertical-align:text-top;
+				border-right:1px solid #555;
+				padding:15px 0px 0px 0px;
+				margin-left:-10px;
+			}
+			a
+				{
+					text-decoration:none;
+					color:#000;
+					font-size:15px;
+				}
+		}
+	}
+}
+
+header
+{
+	ul
+	{
+		position:relative;
+		top:-17px;
 	}
 }

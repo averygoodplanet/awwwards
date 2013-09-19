@@ -1,36 +1,45 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
 header {
-  width: 960px;
-  border: 1px solid black; }
+  width: 960px; }
   header nav#top_nav {
     height: 30px;
     font-size: 15px;
-    float: right; }
+    float: right;
+    margin-right: -40px; }
     header nav#top_nav ul {
       width: 700px;
       list-style-type: none;
       padding: 0px; }
       header nav#top_nav ul li {
         display: inline-block;
+        padding-right: 10px;
         border-right: 1px solid black;
-        width: 60px;
         text-align: center;
-        vertical-align: center; }
+        vertical-align: text-top;
+        margin-left: 10px; }
+        header nav#top_nav ul li:last-child {
+          margin-left: 0px; }
         header nav#top_nav ul li a {
           font-weight: thin;
+          font-size: 12px;
           text-decoration: none;
-          color: #222; }
+          color: #222;
+          transition: all .15s ease-in-out; }
+          header nav#top_nav ul li a:hover {
+            color: #AAA; }
 
 header div#login_register {
-  float: right; }
+  float: right;
+  width: 120px;
+  height: 30px;
+  padding-top: 5px; }
   header div#login_register p {
     font-size: 12px;
-    width: 120px;
-    height: 30px;
     font-weight: bold;
     background-color: #333;
     color: #FFF;
-    text-align: center; }
+    text-align: center;
+    vertical-align: text-top; }
     header div#login_register p span {
       font-weight: lighter; }
 
@@ -44,7 +53,8 @@ header div#nav_section_two {
 header div#nav_section_two div#logo {
   width: 288px;
   height: 56px;
-  background-color: #df6c4f;
+  background-image: url("http://static.awwwards.com/bundles/tvawwwards/images/logo.png");
+  background-repeat: none;
   float: left;
   margin-right: 10px; }
 
@@ -54,17 +64,82 @@ header div#nav_section_two div#tagline {
   float: left;
   padding-top: 35px; }
 
-header div#nav_section_three ul {
-  list-style-type: none;
-  padding: 0px; }
-header div#nav_section_three li {
+header div#nav_section_three {
+  height: 40px; }
+  header div#nav_section_three ul {
+    list-style-type: none;
+    padding: 0px;
+    float: left; }
+  header div#nav_section_three li {
+    display: inline-block;
+    padding: 10px; }
+    header div#nav_section_three li:last-child {
+      color: darkgreen; }
+  header div#nav_section_three a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #222; }
+
+header div#nav_section_three form input {
+  background-color: #e4e6e5;
+  float: right;
+  margin-top: 25px;
+  border: 1px solid #AAA;
+  padding-left: 10px;
+  color: #AAA; }
+
+header div#nav_section_four {
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+  height: 40px;
+  width: 100%; }
+  header div#nav_section_four ul#sub_nav {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: text-top;
+    float: right; }
+    header div#nav_section_four ul#sub_nav li {
+      display: inline-block;
+      width: 140px;
+      height: 25px;
+      text-align: center;
+      font-size: 12px;
+      vertical-align: text-top;
+      border-right: 1px solid #555;
+      padding: 15px 0px 0px 0px;
+      margin-left: -10px; }
+      header div#nav_section_four ul#sub_nav li:last-child {
+        border-right: 0px; }
+      header div#nav_section_four ul#sub_nav li:hover {
+        border-bottom: 1px solid #AAA; }
+      header div#nav_section_four ul#sub_nav li a {
+        text-decoration: none;
+        color: #000; }
+
+header div#nav_section_four ul#icon_set {
   display: inline-block;
-  padding: 10px; }
-header div#nav_section_three a {
-  font-size: 15px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #222; }
+  list-style-type: none;
+  vertical-align: text-top;
+  float: right; }
+  header div#nav_section_four ul#icon_set li {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: text-top;
+    border-right: 1px solid #555;
+    padding: 15px 0px 0px 0px;
+    margin-left: -10px; }
+  header div#nav_section_four ul#icon_set a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px; }
+
+header ul {
+  position: relative;
+  top: -17px; }
 
 content {
   width: 960px;
