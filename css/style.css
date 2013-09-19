@@ -2,8 +2,6 @@
 content {
   width: 960px;
   display: block;
-  border: 1px solid red;
-  background-color: red;
   margin-top: 32.544px; }
   content section {
     width: 960px;
@@ -22,11 +20,26 @@ content {
       height: 232.32px;
       float: left; }
     content section #ratings {
-      padding-left: 13.44px;
+      padding: 0 13.44px;
       list-style-type: none;
       width: 56.64px;
       height: 232.32px;
-      float: left; }
+      float: left;
+      margin-top: 0px; }
+      content section #ratings li {
+        height: 48.48px;
+        width: 48.48px;
+        border-radius: 60px;
+        line-height: 47px;
+        text-align: center; }
+      content section #ratings li:nth-child(1) {
+        border: 5px solid #df6c4f; }
+      content section #ratings li:nth-child(2) {
+        border: 5px solid #ecd06f; }
+      content section #ratings li:nth-child(3) {
+        border: 5px solid #409f89; }
+      content section #ratings li:nth-child(4) {
+        border: 5px solid #1c879c; }
     content section table {
       width: 497.28px;
       height: 224.64px;
