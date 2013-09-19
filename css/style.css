@@ -144,6 +144,8 @@ header div#nav_section_four ul#icon_set {
     border-right: 1px solid #555;
     padding: 15px 0px 0px 0px;
     margin-left: -10px; }
+    header div#nav_section_four ul#icon_set li:last-child {
+      border-right: 0px; }
   header div#nav_section_four ul#icon_set a {
     text-decoration: none;
     color: #AAA;

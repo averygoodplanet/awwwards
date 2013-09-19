@@ -279,6 +279,11 @@ header
 				border-right:1px solid #555;
 				padding:15px 0px 0px 0px;
 				margin-left:-10px;
+
+				&:last-child
+				{
+					border-right:0px;
+				}
 			}
 			a
 				{
