@@ -1,20 +1,36 @@
 header
 {
+	width:960px;
+	border:1px solid black;
+
 	nav#top_nav
 	{
+		height:30px;
+		font-size:15px;
+		float:right;
+		// border:1px solid black;
+
 		ul
-		{
+		{	
+			width:700px;
 			list-style-type:none;
 			padding:0px;
+			// border:1px solid black;
 
 			li
 			{
 				display:inline-block;
+				padding-left:10px;
+				border-right:1px solid black;
+				width:60px;
+				margin-left:30px;
 
 				a
 				{
+					font-weight:thin;
 					text-decoration:none;
-					color:$green;
+					color:#222;
+
 				}
 			}
 		}
@@ -24,6 +40,9 @@ header
 header
 {
 	div#login_register{
+
+		float:right;
+
 		p
 		{
 			font-size:12px;
@@ -35,8 +54,73 @@ header
 
 			span
 			{
-				font-weight:thin;
+				font-weight:lighter;
 			}
+		}
+	}
+}
+
+header
+{
+	div#tagline
+	{
+		h2
+		{
+			font-size:12px;
+			font-weight:lighter;
+		}
+	}
+}
+
+header
+{
+	div#nav_section_two
+	{
+
+		margin-top:50px;
+      
+	}
+}
+
+header
+{
+	div#nav_section_two
+	{
+
+		div#logo
+		{
+			width:288px;
+			height:56px;
+			background-color:$red;
+			float:left;
+			margin-right:10px;
+		}
+	}
+}
+
+header
+{
+	div#nav_section_two
+	{
+		div#tagline
+		{
+			width:426px;
+			height:26px;
+			float:left;
+			padding-top:35px;
+
+		}
+	}
+}
+
+header
+{
+	div#nav_section_three
+	{
+		ul
+		{
+			list-style-type:none;
+			padding:0px;
 		}
 	}
 }
