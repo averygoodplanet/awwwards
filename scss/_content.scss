@@ -98,8 +98,14 @@ content
       {
         text-align: left;
         text-transform: uppercase;
-        padding-bottom: $wrapper_width * .015625;
+        padding-bottom: $wrapper_width * .008333;
         font-weight: lighter;
+      }
+
+      td
+      {
+        border-bottom: 1px solid $bottom_border_gray;
+        padding: 5px 0;
       }
     }
   }

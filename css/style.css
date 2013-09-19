@@ -55,8 +55,11 @@ content {
       content section table th {
         text-align: left;
         text-transform: uppercase;
-        padding-bottom: 15px;
+        padding-bottom: 7.99968px;
         font-weight: lighter; }
+      content section table td {
+        border-bottom: 1px solid #cbcecc;
+        padding: 5px 0; }
 
 footer {
   padding-top: 40px; }
