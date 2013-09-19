@@ -3,14 +3,33 @@ content {
   width: 960px;
   display: block;
   border: 1px solid red;
-  background-color: red; }
+  background-color: red;
+  margin-top: 32.544px; }
   content section {
     width: 960px;
     height: 232.32px;
-    display: block; }
+    display: block;
+    position: relative;
+    /*positioning section relative (but not moving) so that img#ribbon
+    can be positioned absolutely */ }
+    content section img#ribbon {
+      width: 60.48px;
+      height: 232.32px;
+      position: absolute;
+      left: -9.6px; }
     content section img {
       width: 373.44px;
-      height: 232.32px; }
+      height: 232.32px;
+      float: left; }
+    content section #ratings {
+      width: 56.64px;
+      height: 232.32px;
+      float: left; }
+    content section table {
+      width: 497.28px;
+      height: 224.64px;
+      float: left;
+      margin-bottom: 67.2px; }
 
 /* setting $wrapper_width variable to 960px
 (peter) using this to express some content measurement
