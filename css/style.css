@@ -33,6 +33,24 @@ content {
       float: left;
       margin-bottom: 67.2px; }
 
+footer {
+  padding-top: 40px; }
+  footer ul {
+    padding: 0; }
+    footer ul :nth-child(4) {
+      padding-right: 0px;
+      margin-right: 0px; }
+    footer ul li {
+      display: inline-block;
+      padding-right: 25px; }
+      footer ul li p:first-of-type {
+        font-size: 13px;
+        font-weight: bold;
+        color: #444444; }
+      footer ul li p:nth-of-type(2) {
+        font-size: 13px;
+        color: #54AAAE; }
+
 /* setting $wrapper_width variable to 960px
 (peter) using this to express some content measurement
 as percentage of $wrapper_width. */
@@ -45,3 +63,6 @@ body {
 #wrapper {
   width: 960px;
   margin: 0 auto; }
+
+.clear {
+  clear: both; }
