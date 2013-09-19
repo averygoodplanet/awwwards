@@ -9,7 +9,13 @@ content {
     display: block;
     position: relative;
     /*positioning section relative (but not moving) so that img#ribbon
-    can be positioned absolutely */ }
+    can be positioned absolutely */
+    font-size: 13px; }
+    content section a {
+      font-size: 13px;
+      color: #54AAAE;
+      font-style: italic;
+      text-decoration: none; }
     content section img#ribbon {
       width: 60.48px;
       height: 232.32px;
@@ -45,6 +51,11 @@ content {
       height: 224.64px;
       float: left;
       margin-bottom: 67.2px; }
+      content section table th {
+        text-align: left;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+        font-weight: lighter; }
 
 footer {
   padding-top: 40px; }
